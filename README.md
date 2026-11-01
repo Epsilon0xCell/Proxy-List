@@ -4,8 +4,6 @@
 
 ![A chapman resting his opened pack on a milepost, two peddlers walking in single file, a woman reading a bought sheet at her cottage door, and the name Proxy-List lettered on a cloth banner at a fair stance](banner.png)
 
-![Signed heading plate: the route ledger](sep-heavy.svg)
-
 > **Pinned notice, the warning at the gate.**
 >
 > SECURITY ADVISORY WARNING: DO NOT TRUST ANY PROXIES IN THIS LIST, THIS IS A FORK OF THE PROXY-LIST PROJECT FOR SECURITY ANALYSIS PURPOSES, PROFESSIONAL-USE ONLY.
