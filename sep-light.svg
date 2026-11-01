@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" role="img" aria-label="A short track line, centred">
+  <rect width="1200" height="28" fill="#f2ead8"/>
+  <line x1="420" y1="15" x2="780" y2="15" stroke="#5a4632" stroke-width="2.5"/>
+  <circle cx="600" cy="15" r="3.5" fill="#5a4632"/>
+</svg>

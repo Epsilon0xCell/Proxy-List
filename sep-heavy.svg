@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" role="img" aria-label="A track line with three mileposts and a strap buckle at the centre">
+  <rect width="1200" height="52" fill="#f2ead8"/>
+  <line x1="30" y1="34" x2="1170" y2="34" stroke="#5a4632" stroke-width="3"/>
+  <g fill="#ddd2ba" stroke="#5a4632" stroke-width="2">
+    <path d="M220 34 L220 12 L230 5 L240 12 L240 34 Z"/>
+    <path d="M960 34 L960 12 L970 5 L980 12 L980 34 Z"/>
+    <path d="M580 34 L580 8 L592 0 L604 8 L604 34 Z"/>
+  </g>
+  <rect x="586" y="24" width="28" height="18" fill="none" stroke="#1c1a17" stroke-width="4"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="The peddlers route from the side: a kirk on the far hill, two peddlers with packs walking past a milepost, and a resting pack with a loose sheet in the near verge">
+  <rect width="1200" height="360" fill="#f2ead8"/>
+  <!-- far depth: hill skyline, kirk tower, cottage smoke -->
+  <path d="M0 118 L240 74 L470 104 L720 66 L960 96 L1200 78 L1200 150 L0 150 Z" fill="#b3a58e"/>
+  <g fill="#6e675c">
+    <rect x="742" y="34" width="26" height="66"/>
+    <path d="M738 34 L755 14 L772 34 Z" fill="#463f36"/>
+    <rect x="750" y="52" width="10" height="20" fill="#2c2822"/>
+  </g>
+  <rect x="180" y="86" width="52" height="34" fill="#ddd2ba"/>
+  <path d="M176 86 L206 66 L236 86 Z" fill="#5a4632"/>
+  <g fill="#e9e5dc">
+    <ellipse cx="222" cy="52" rx="7" ry="11" opacity="0.75">
+      <animate attributeName="cy" values="52;30" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.75;0" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="226" cy="58" rx="9" ry="14" opacity="0.55">
+      <animate attributeName="cy" values="58;34" dur="9s" begin="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0" dur="9s" begin="3s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+  <!-- mid depth: the walking strip -->
+  <rect y="150" width="1200" height="110" fill="#d9c69c"/>
+  <g fill="#8a7a5c">
+    <path d="M596 168 L610 168 L612 226 L594 226 Z"/>
+    <rect x="586" y="222" width="70" height="7" fill="#5a4632" opacity="0.35">
+      <animate attributeName="width" values="70;70;150;150;70" keyTimes="0;0.30;0.42;0.62;0.75" dur="48s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-260 0;1260 0" dur="48s" repeatCount="indefinite"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="1.6s" repeatCount="indefinite"/>
+      <!-- peddler one -->
+      <g stroke="#1c1a17" stroke-width="6" stroke-linecap="round">
+        <line x1="60" y1="196" x2="46" y2="238"/>
+        <line x1="60" y1="196" x2="76" y2="234"/>
+      </g>
+      <rect x="52" y="146" width="34" height="52" fill="#c8a97a" stroke="#5a4632" stroke-width="3"/>
+      <rect x="64" y="146" width="7" height="52" fill="#5a4632"/>
+      <line x1="52" y1="152" x2="34" y2="176" stroke="#54453a" stroke-width="11"/>
+      <circle cx="42" cy="140" r="9" fill="#c4a484"/>
+      <!-- peddler two, behind -->
+      <g stroke="#1c1a17" stroke-width="6" stroke-linecap="round">
+        <line x1="170" y1="200" x2="157" y2="238"/>
+        <line x1="170" y1="200" x2="185" y2="235"/>
+      </g>
+      <rect x="162" y="152" width="32" height="48" fill="#c8a97a" stroke="#5a4632" stroke-width="3"/>
+      <rect x="174" y="152" width="7" height="48" fill="#5a4632"/>
+      <line x1="162" y1="158" x2="146" y2="180" stroke="#46505e" stroke-width="11"/>
+      <circle cx="152" cy="146" r="9" fill="#c4a484"/>
+    </g>
+  </g>
+  <!-- near depth: verge, loose stones, resting pack corner, lifting sheet -->
+  <rect y="260" width="1200" height="100" fill="#e5dcc4"/>
+  <g fill="#8f8672">
+    <ellipse cx="240" cy="316" rx="13" ry="5"/>
+    <ellipse cx="420" cy="338" rx="9" ry="4"/>
+    <ellipse cx="880" cy="322" rx="11" ry="5"/>
+    <ellipse cx="1060" cy="342" rx="8" ry="3"/>
+  </g>
+  <g>
+    <rect x="18" y="252" width="86" height="108" fill="#c8a97a" stroke="#5a4632" stroke-width="3"/>
+    <rect x="44" y="252" width="9" height="108" fill="#5a4632"/>
+    <rect x="76" y="252" width="9" height="108" fill="#5a4632"/>
+    <path d="M30 252 L96 252 L92 232 L36 236 Z" fill="#f6f0e0" stroke="#5a4632" stroke-width="2"/>
+    <path d="M84 234 L104 224 L98 248 L86 250 Z" fill="#faf5e8" stroke="#5a4632" stroke-width="1.5">
+      <animateTransform attributeName="transform" type="rotate" values="0 88 246;-14 88 246;0 88 246" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
